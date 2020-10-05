@@ -1,5 +1,3 @@
-package p1;
-
 /**
  * Driver class to test CircularLine.
  * 
