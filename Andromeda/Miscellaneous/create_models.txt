@@ -1,0 +1,25 @@
+	ModelData data2 = OBJFileLoader.loadOBJ("grassModel");
+		RawModel grass = loader.loadToVAO(data2.getVertices(), data2.getTextureCoords(), data2.getNormals(),
+				data2.getIndices());
+
+		TexturedModels grassModel = new TexturedModels(grass, new ModelTexture(loader.loadTexture("grassTexture2")));
+		grassModel.getTexture().setHasTransparency(true);
+		grassModel.getTexture().setUseFakeLighting(true);
+		
+		ModelData flowerModel = OBJFileLoader.loadOBJ("grassModel");
+		RawModel rawFlower = loader.loadToVAO(flowerModel.getVertices(), flowerModel.getTextureCoords(), flowerModel.getNormals(),
+				flowerModel.getIndices());
+		TexturedModels flower = new TexturedModels(rawFlower, new ModelTexture(loader.loadTexture("flower")));
+		flower.getTexture().setHasTransparency(true);
+		flower.getTexture().setUseFakeLighting(true);
+		
+		ModelData lampModel =  OBJFileLoader.loadOBJ("lamp");
+		RawModel rawLamp = loader.loadToVAO(lampModel.getVertices(), lampModel.getTextureCoords(), lampModel.getNormals(),
+				lampModel.getIndices());
+		TexturedModels lamp = new TexturedModels(rawLamp, new ModelTexture(loader.loadTexture("lamp2")));
+		lamp.getTexture().setUseFakeLighting(true);
+		
+		ModelData bobbleTreeModel =  OBJFileLoader.loadOBJ("bobbleTree");
+		RawModel rawBobble = loader.loadToVAO(bobbleTreeModel.getVertices(), bobbleTreeModel.getTextureCoords(), bobbleTreeModel.getNormals(),
+				bobbleTreeModel.getIndices());
+		TexturedModels bobbleTree = new TexturedModels(rawBobble, new ModelTexture(loader.loadTexture("bobbleTree")));
