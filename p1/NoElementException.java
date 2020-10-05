@@ -1,5 +1,3 @@
-package p1;
-
 /**
  * Creates a custom no element exception that extends Java's RuntimeException
  * class.
@@ -10,7 +8,7 @@ package p1;
 public class NoElementException extends RuntimeException {
 
 	/**
-	 * This is something weird that I needed to put to avoid errors.
+	 * A unique serial version identifier.
 	 */
 	private static final long serialVersionUID = 1L;
 
