@@ -1,7 +1,16 @@
-package p1;
-
-public class PriorityCircularMainTester {
-	public static void main(String args[]) {
+/**
+ * Driver class to test code.
+ * 
+ * @author Jacob Strokus
+ *
+ */public class PriorityCircularMainTester {
+	
+	 /**
+	 * Controls the flow of the program.
+	 * 
+	 * @param args Command-line arguments supplied as an Array of String Objects.
+	 */
+	 public static void main(String args[]) {
 		PriorityCircularLine<Integer> ins = new PriorityCircularLine<Integer>(5);
 		try {
 			System.out.println(ins.isEmpty()); // true
