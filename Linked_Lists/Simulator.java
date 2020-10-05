@@ -7,6 +7,36 @@ import java.io.File;
  * This class runs a simulation of the trains and the people on the trains.
  */
 class Simulator {
+	
+	/**
+	 * The scanner to the file containing the train actions.
+	 */
+	private Scanner trainScanner;
+
+	/**
+	 * The scanner to the file containing the person actions.
+	 */
+	private Scanner peopleScanner;
+
+	/**
+	 * A map between car names and car objects.
+	 */
+	private UniquePairList<String, Car> cars = new UniquePairList<>();
+
+	/**
+	 * A map between train names and train objects.
+	 */
+	private UniquePairList<String, Train> trains = new UniquePairList<>();
+
+	/**
+	 * A map between person names and person objects.
+	 */
+	private UniquePairList<String, Person> people = new UniquePairList<>();
+
+	/**
+	 * A set of cars that have been decoupled.
+	 */
+	private UniqueList<Car> decoupledCars = new UniqueList<>();
 
 	/**
 	 * Reads in and sets up the initial train positions.
@@ -46,36 +76,6 @@ class Simulator {
 
 		}
 	}
-
-	/**
-	 * The scanner to the file containing the train actions.
-	 */
-	private Scanner trainScanner;
-
-	/**
-	 * The scanner to the file containing the person actions.
-	 */
-	private Scanner peopleScanner;
-
-	/**
-	 * A map between car names and car objects.
-	 */
-	private UniquePairList<String, Car> cars = new UniquePairList<>();
-
-	/**
-	 * A map between train names and train objects.
-	 */
-	private UniquePairList<String, Train> trains = new UniquePairList<>();
-
-	/**
-	 * A map between person names and person objects.
-	 */
-	private UniquePairList<String, Person> people = new UniquePairList<>();
-
-	/**
-	 * A set of cars that have been decoupled.
-	 */
-	private UniqueList<Car> decoupledCars = new UniqueList<>();
 
 	/**
 	 * Initialize the simulator to use specific files for the simulation.
