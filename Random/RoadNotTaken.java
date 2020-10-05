@@ -1,5 +1,3 @@
-package jStrokus_csc201_Final;
-
 import java.awt.FileDialog;
 import java.awt.Frame;
 import java.io.BufferedReader;
