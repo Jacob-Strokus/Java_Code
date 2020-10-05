@@ -60,7 +60,7 @@ public class SummaryResult {
 				output[1] = orders.get(i).getG().getColor();
 				output[2] = Integer.toString((int) orders.get(i).getG().getTimeToMake());
 				output[3] = orders.get(i).getC().getFirstName() + " " + orders.get(i).getC().getLastName();
-				output[4] = Integer.toString(d);
+				output[4] = Double.toString(d);
 				output[5] = orders.get(i).getDateRecived().toString();
 				output[6] = orders.get(i).getDateDue().toString();
 				output[7] = orders.get(i).getStartprocessing().toString();
