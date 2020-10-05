@@ -1,0 +1,77 @@
+	x = random.nextFloat() * 900 -100;
+			z = random.nextFloat() * -1000;
+			y = terrain.getHeightOfTerrain(x, z);
+			
+			entities.add(new Entity(bobbleTree, new Vector3f(x, y, z), 0, 0, 0, 1));
+			 
+			x = random.nextFloat() * 900 -100;
+			z = random.nextFloat() * -1000;
+			y = terrain.getHeightOfTerrain(x, z);
+			
+			entities.add(new Entity(rock, new Vector3f(x, y, z), 0, 0, 0, 1));
+			
+			x = random.nextFloat() * 900 -100;
+			z = random.nextFloat() * -1000;
+			y = terrain.getHeightOfTerrain(x, z);
+			
+			entities.add(new Entity(bobbleTree, new Vector3f(x, y, z), 0, 0, 0, 1));
+			
+			x = random.nextFloat() * 900 -100;
+			z = random.nextFloat() * -900;
+			y = terrain.getHeightOfTerrain(x, z);
+			
+			entities.add(new Entity(flower,
+					new Vector3f(x, y, z), 0, random.nextFloat() * 360, 0, random.nextFloat() * 0.3f + 0.9f));
+			
+			x = random.nextFloat() * 800 -400;
+			z = random.nextFloat() * -600;
+			y = terrain.getHeightOfTerrain(x, z);
+			
+			entities.add(new Entity(grassModel,
+					new Vector3f(x, y, z), 0, random.nextFloat() * 360, 0, random.nextFloat() * 0.3f + 0.9f));
+	
+		}
+		
+		
+		
+		/*
+		float lightX = 185;
+		float lightZ = -293;
+		float lightY = terrain.getHeightOfTerrain(lightX, lightZ);
+		lights.add(new Light(new Vector3f(lightX, lightY +20, lightZ), new Vector3f(2, 0, 0), new Vector3f(1, 0.01f, 0.002f)));
+		
+		
+		lightX = 370;
+		lightZ = -300;
+		lightY = terrain.getHeightOfTerrain(lightX, lightZ);
+		lights.add(new Light(new Vector3f(lightX, lightY + 20, lightZ), new Vector3f(0, 2, 2), new Vector3f(1, 0.01f, 0.002f)));
+		
+		
+		lightX = 293;
+		lightZ = -305;
+		lightY = terrain.getHeightOfTerrain(lightX, lightZ);
+		lights.add(new Light(new Vector3f(lightX, lightY + 20, lightZ), new Vector3f(0, 2, 0), new Vector3f(1, 0.01f, 0.002f)));*/
+		
+		
+		
+		/*
+			
+		float x = 185;
+		float z = -293;
+		float y = terrain.getHeightOfTerrain(x, z);
+		
+		entities.add(new Entity(lamp, new Vector3f(x, y, z), 0, 0, 0, 1));
+		
+		x = 370;
+		z = -300;
+		y = terrain.getHeightOfTerrain(x, z);
+		
+		entities.add(new Entity(lamp, new Vector3f(x, y, z), 0, 0, 0, 1));
+		
+		x = 293;
+		z = -305;
+		y = terrain.getHeightOfTerrain(x, z);
+		
+		entities.add(new Entity(lamp, new Vector3f(x, y, z), 0, 0, 0, 1));
+		
+		*/
