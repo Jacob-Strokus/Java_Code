@@ -1,5 +1,3 @@
-package p1;
-
 /**
  * Blueprint class to create generic PriorityCircularLine Objects. This class
  * extends CircularLine to inherit it's methods, and extends the Comparable<T>
