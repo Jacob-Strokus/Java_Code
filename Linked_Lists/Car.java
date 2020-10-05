@@ -1,5 +1,3 @@
-package p2;
-
 /**
  * Blueprint class to create Car Objects.
  * 
