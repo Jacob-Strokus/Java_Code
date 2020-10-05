@@ -1,11 +1,9 @@
-package jStrokus_csc201_Final;
-
 import java.io.*;
 import java.util.*;
 
 /**
  * Class used for simple date functions
- * Borrowed in ITP120 
+ * 
  */
 public class Day implements Cloneable, Serializable
 { 
