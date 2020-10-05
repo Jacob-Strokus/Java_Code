@@ -1,5 +1,3 @@
-package p1;
-
 /**
  * Blueprint class that creates generic CircularLine Objects that implement
  * CircularLineInterface.
