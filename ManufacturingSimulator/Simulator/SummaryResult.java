@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
-import bean.Order;
+import Blueprint.Order;
 
 /**
  * This class will take all the data gathered from running Simulations and
@@ -31,7 +31,7 @@ public class SummaryResult {
 	 * @param orders ArrayList of Order Objects.
 	 * 
 	 */
-	public void writeText(List<Order> orders) {
+	public void writeText(List<Order> orders, double d) {
 		Frame f = new Frame();
 		FileDialog foBox = new FileDialog(f, "Saving Orders File", FileDialog.SAVE);
 		foBox.setVisible(true);
@@ -60,7 +60,7 @@ public class SummaryResult {
 				output[1] = orders.get(i).getG().getColor();
 				output[2] = Integer.toString((int) orders.get(i).getG().getTimeToMake());
 				output[3] = orders.get(i).getC().getFirstName() + " " + orders.get(i).getC().getLastName();
-				output[4] = Integer.toString(orders.get(i).getC().getPenalty());
+				output[4] = Integer.toString(d);
 				output[5] = orders.get(i).getDateRecived().toString();
 				output[6] = orders.get(i).getDateDue().toString();
 				output[7] = orders.get(i).getStartprocessing().toString();
