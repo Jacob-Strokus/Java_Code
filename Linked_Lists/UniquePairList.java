@@ -1,5 +1,3 @@
-package p2;
-
 /**
  * Driver class to create UniquePairList Objects to test the Pair class. This
  * inner class uses double generic value. One for the key and one for the value.
