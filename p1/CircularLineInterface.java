@@ -1,5 +1,3 @@
-package p1;
-
 /**
  * Generic Interface for CircularLine class. I can implement this class in any
  * number other of classes to have these methods included and if I want override
