@@ -1,0 +1,11 @@
+,,Time (hrs),,Late Penalty,Order Arrival,Requested,Start Processing,End Processing,Penalty
+Order_1,Red Gismolio,10,Mike Smith,50,2/20/2019 1400,2/21/2019 1200,2/20/2019 1400,2/20/2019 2400,0
+Order_2,Blue Gismolio,18,Joe Miller,70,2/20/2019 1800,2/21/2019 1200,2/21/2019 100,2/21/2019 1900,70
+Order_3,Red Gismolio,10,Jan Michaels,120,2/21/2019 800,2/26/2019 1200,2/21/2019 2000,2/21/2019 600,0
+Order_4,Green Gismolio,32,Joe Miller,70,2/21/2019 1400,2/22/2019 1200,2/21/2019 700,2/22/2019 1600,0
+Order_5,Orange Gismolio,15,Sam Toller,50,2/21/2019 1800,2/22/2019 1200,2/22/2019 1700,2/23/2019 800,50
+Order_6,Blue Gismolio,18,Mike Smith,50,2/22/2019 1200,2/23/2019 1200,2/23/2019 900,2/24/2019 300,50
+Order_7,White Gismolio,36,Paul Biller,25,2/22/2019 1500,2/27/2019 1200,2/24/2019 400,2/24/2019 1600,0
+Order_8,Red Gismolio,10,Sally Deavers,80,2/23/2019 1100,2/24/2019 1200,2/24/2019 1700,2/25/2019 300,80
+Order_9,Purple Gismolio,12,Sally Deavers,80,2/23/2019 1500,2/24/2019 1200,2/25/2019 400,2/25/2019 1600,80
+Order_10,Green Gismolio,32,Harvey Putts,100,2/24/2019 1200,2/26/2019 1200,2/25/2019 1700,2/26/2019 2400,100
