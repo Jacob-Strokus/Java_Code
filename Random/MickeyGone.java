@@ -1,5 +1,3 @@
-package jStrokus_csc201_Final;
-
 import java.text.Collator;
 import java.util.ArrayList;
 import java.util.Collections;
