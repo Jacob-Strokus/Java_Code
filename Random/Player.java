@@ -1,5 +1,3 @@
-package jStrokus_csc201_Final;
-
 public class Player {
 
 	//fields
