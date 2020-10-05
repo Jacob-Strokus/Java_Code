@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 /**
  * Class designed to take in information from the keyboard, perform calculations
