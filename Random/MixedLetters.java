@@ -1,5 +1,3 @@
-package jStrokus_csc201_Final;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
