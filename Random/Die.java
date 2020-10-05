@@ -1,5 +1,3 @@
-package jStrokus_csc201_Final;
-
 public class Die {
 	//fields
 	private final int MAX = 6;
