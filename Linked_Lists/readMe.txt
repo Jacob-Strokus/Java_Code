@@ -1,1 +1,1 @@
-Murder mystery train scenario using linked lists. No use of imports or outside classes EXCCEPT for Simulator.java
+Murder mystery train scenario using linked lists. No use of imports or outside classes EXCCEPT for Simulator.java and Train.java
