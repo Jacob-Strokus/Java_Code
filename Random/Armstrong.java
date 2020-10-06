@@ -69,9 +69,6 @@ public class Armstrong {
 
 	/**
 	 * print a report of all numbers that passed the test
-	 * 
-	 * @param armstrongNumbers is an arrayList of every number entered that was
-	 *                         proven to be an Armstrong number
 	 */
 	public static void printReport(int winners, int losers) {
 
