@@ -119,8 +119,8 @@ public class Machine {
 
 				StringTokenizer st = new StringTokenizer(line, ",");
 				st.nextToken();
-				String[] whaetever = st.nextToken().split(" ");
-				String gizmoColor = whaetever[0];
+				String[] colors = st.nextToken().split(" ");
+				String gizmoColor = colors[0];
 				int hours = Integer.parseInt(st.nextToken().trim());
 				String[] name = st.nextToken().trim().split(" ");
 				String firstName = name[0];
