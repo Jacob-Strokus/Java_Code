@@ -14,7 +14,7 @@ public class AllSimulations {
 	 * @param args Command-line arguments supplied as an Array of String Objects.
 	 */
 	public static void main(String[] args) {
-		
+
 		Scanner scan = new Scanner(System.in);
 		Machine eagleOne = new Machine(0, null);
 		SummaryResult sum = new SummaryResult();
@@ -22,7 +22,7 @@ public class AllSimulations {
 		int choice = -1;
 		System.out.println("Welcome to the Jacob's Gizmolio Manufactoring Assistant.");
 
-		while (choice != 5) {
+		while (choice != 6) {
 
 			menu();
 
@@ -50,6 +50,12 @@ public class AllSimulations {
 				eagleOne.setTotalPenalty(0);
 				break;
 			case 5:
+				Simulation.runSimLargestPenalty(eagleOne);
+				sum.writeText(eagleOne.done, eagleOne.getTotalPenalty());
+				eagleOne.done.clear();
+				eagleOne.setTotalPenalty(0);
+				break;
+			case 6:
 				System.out.println("Thank you for using Gizmolio Manufactoring Assistant.");
 				scan.close();
 				System.exit(0);
@@ -66,8 +72,10 @@ public class AllSimulations {
 		System.out.println("2: Test FIFO");
 		System.out.println("3: Test LIFO");
 		System.out.println("4: Test Earliest Requested First");
+		System.out.println("5: Test Largest Penalty First");
 		System.out.println("6: Exit");
 		System.out.println("CHOICE:");
 	}
 
 }
+
