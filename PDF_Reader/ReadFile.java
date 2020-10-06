@@ -91,11 +91,11 @@ public class ReadFile {
 						if (frequency.containsKey(processed)) {
 
 							frequency.put(processed, frequency.get(processed + 1)); // if word appears more than once,
-																					// increment the count
+														// increment the count
 
 						} else {
 							frequency.put(processed, 1); // if it doesn't appear more than once, assign it the value of
-															// 1
+											// 1
 						}
 
 					} // end for
