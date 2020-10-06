@@ -27,7 +27,7 @@ public class PDFBoxReadFromFile {
 	public static ArrayList<String> populateList(ArrayList<String> data) {
 
 		PDFManager pdfManager = new PDFManager();
-		pdfManager.setFilePath("C:\\Users\\Strokus.DESKTOP-94108GT\\Desktop\\P&C Insurance Company Valuation.pdf");
+		pdfManager.setFilePath("YOUR_FILE_PATH_HERE");
 		try {
 			String text = pdfManager.toText();
 			data.add(text);
