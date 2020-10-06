@@ -10,6 +10,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+/**
+* Read from a File and find most frequently used word(s).
+*
+*@author Jacob Strokus
+*/
 public class ReadFile {
 
 	public static void main(String[] args) {
