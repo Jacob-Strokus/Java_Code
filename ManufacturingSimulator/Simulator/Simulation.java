@@ -17,7 +17,7 @@ public class Simulation {
 	Machine eagleOne = new Machine(0, null);
 
 	/**
-	 * Launches simulation methods.
+	 * Launches simulation methods. Used for testing.
 	 * 
 	 * @param args     Command-line arguments supplied as an Array of String
 	 *                 Objects.
