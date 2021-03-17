@@ -1,2 +1,2 @@
 # Java_Code
-A colllection of Java projects I have done over the last 2 years.
+A colllection of Java projects while learning to program in Java.
